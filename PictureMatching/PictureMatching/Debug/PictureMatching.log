@@ -1,0 +1,16 @@
+﻿生成启动时间为 2017/4/14 星期五 下午 9:36:36。
+     1>项目“E:\Hack\PictureMatching\PictureMatching\PictureMatching.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\PictureMatching.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PictureMatching.cpp
+         PictureMatching.cpp
+     1>e:\hack\picturematching\picturematching\picturematching.cpp(122): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Hack\PictureMatching\Debug\PictureMatching.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Hack\PictureMatching\Debug\PictureMatching.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Hack\PictureMatching\Debug\PictureMatching.lib" /MACHINE:X86 Debug\PictureMatching.res
+         Debug\PictureMatching.obj
+         Debug\stdafx.obj
+         PictureMatching.vcxproj -> E:\Hack\PictureMatching\Debug\PictureMatching.exe
+     1>已完成生成项目“E:\Hack\PictureMatching\PictureMatching\PictureMatching.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.96
