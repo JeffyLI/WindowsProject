@@ -1,0 +1,15 @@
+贪吃蛇
+
+本来是要实现加按钮，通过点击按钮暂停游戏的功能
+但是添加如下代码后：
+static HWND hPause;
+hPause = CreateWindow(TEXT("Button"), TEXT("Pause"), WS_CHILD|WS_VISIBLE, 
+			2 * BOUND + SNAKE_SIZE*GAME_WIDTH+5, BOUND+5, 10 * SNAKE_SIZE, 5 * SNAKE_SIZE,
+			hWnd, (HMENU)PAUSE_ID, hInst, NULL);
+按键监听就失灵了，无法监听我键盘触发的事件，原因不明
+最后我只能调到用ESC键暂停游戏
+
+游戏没有显示分数和难度
+
+程序用了vectory储存蛇，用尾部替代头部的翻滚模式实现蛇的移动，并且用取余的方式重复利用开出的空间
+
